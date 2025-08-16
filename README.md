@@ -1,4 +1,4 @@
-```markdown
+````markdown
 # 🧾 Personal Expenses Tracker
 A Python-based expense tracking system using **SQLite** for storage, **Pandas** for clean tabular reports, and **Matplotlib** for visualizations.  
 Track your expenses, view yearly/monthly trends, and analyze spending categories with ease.
@@ -6,40 +6,41 @@ Track your expenses, view yearly/monthly trends, and analyze spending categories
 ---
 
 ## 📁 Project Structure
-```
-
+```bash
 .
 ├── main.py               # Entry point (menu-driven CLI for tracker)
 ├── db.py                 # Database functions (insert & connect to SQLite)
-├── expense\_report.py     # Reports: yearly, monthly, and category summary
+├── expense_report.py     # Reports: yearly, monthly, and category summary
 ├── expenses/expenses.db  # SQLite database file (auto-created)
 └── README.md             # Documentation
-
 ````
 
 ---
 
 ## 🧠 Features
-📅 **Yearly Expenses** – View monthly breakdown + total yearly spend (Pie Chart)  
-📆 **Monthly Expenses** – Track daily spending trends (Line Graph)  
-📊 **Category Summary** – Analyze spending by category (Yearly or Monthly) with Bar Graph  
-💾 **SQLite Database** – Persistent local storage for all expenses  
-📋 **Pandas Reports** – Clean and readable tabular summaries  
+
+📅 **Yearly Expenses** – View monthly breakdown + total yearly spend (Pie Chart)
+📆 **Monthly Expenses** – Track daily spending trends (Line Graph)
+📊 **Category Summary** – Analyze spending by category (Yearly or Monthly) with Bar Graph
+💾 **SQLite Database** – Persistent local storage for all expenses
+📋 **Pandas Reports** – Clean and readable tabular summaries
 
 ---
 
 ## 🚀 Getting Started
 
 ### 📦 Requirements
-- Python 3.7+
-- Pandas
-- Matplotlib
-- SQLite (comes pre-installed with Python)
+
+* Python 3.7+
+* Pandas
+* Matplotlib
+* SQLite (comes pre-installed with Python)
 
 ### 📥 Install dependencies
+
 ```bash
 pip install pandas matplotlib
-````
+```
 
 ---
 
@@ -53,7 +54,7 @@ python main.py
 
 You’ll see a **menu** like this:
 
-```
+```bash
 ========================================
    🧾 Personal Expenses Tracker 🧾
 ========================================
@@ -93,7 +94,4 @@ What would you like to do?
 
 Pull requests are welcome! If you’d like to add new features (export, GUI, ML insights), feel free to fork and contribute.
 
-```
 
-Would you like me to also add **badges** (like Python version, license, etc.) at the top so it looks GitHub-professional?
-```
