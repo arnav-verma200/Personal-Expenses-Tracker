@@ -84,10 +84,11 @@ What would you like to do?
 
 ## 🔮 Future Improvements
 
-* Export reports to **CSV/Excel/PDF**
-* Add **budget alerts & goals**
-* Multi-user system with login
-* GUI version (Tkinter / Web app)
+
+- 🌐 **Full-stack apps with UI/UX design** — building interactive and clean user interfaces.  
+- 📸 **OpenCV-based automation** — capture photos of bills/receipts and automatically extract data.  
+- 📊 **Expense Trend Analyzer** — predict approximate spending (e.g., “September expenses will be ~₹X”) using ML.  
+- 🚨 **Smart Alerts** — notify when too much money is spent on one category or when unusual transactions appear.  
 
 ---
 
