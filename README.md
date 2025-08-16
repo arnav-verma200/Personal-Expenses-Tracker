@@ -1,4 +1,4 @@
-# 🧾 Personal Expenses Tracker
+## 🧾 Personal Expenses Tracker
 A Python-based expense tracking system using **SQLite** for storage, **Pandas** for clean tabular reports, and **Matplotlib** for visualizations.  
 Track your expenses, view yearly/monthly trends, and analyze spending categories with ease.
 
@@ -16,11 +16,10 @@ Track your expenses, view yearly/monthly trends, and analyze spending categories
 └── README.md             # Documentation
 
 ```
-```
 
 
 ## 🧠 Features
-
+```
 📅 **Yearly Expenses** – View monthly breakdown + total yearly spend (Pie Chart)
 📆 **Monthly Expenses** – Track daily spending trends (Line Graph)
 📊 **Category Summary** – Analyze spending by category (Yearly or Monthly) with Bar Graph
@@ -28,18 +27,18 @@ Track your expenses, view yearly/monthly trends, and analyze spending categories
 📋 **Pandas Reports** – Clean and readable tabular summaries
 
 ---
-
+```
 ## 🚀 Getting Started
 
 ### 📦 Requirements
-
+```
 * Python 3.7+
 * Pandas
 * Matplotlib
 * SQLite (comes pre-installed with Python)
-
+```
 ### 📥 Install dependencies
-
+```
 ```bash
 pip install pandas matplotlib
 ```
