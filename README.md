@@ -1,4 +1,5 @@
-````markdown
+
+```markdown
 # 🧾 Personal Expenses Tracker
 A Python-based expense tracking system using **SQLite** for storage, **Pandas** for clean tabular reports, and **Matplotlib** for visualizations.  
 Track your expenses, view yearly/monthly trends, and analyze spending categories with ease.
@@ -6,16 +7,23 @@ Track your expenses, view yearly/monthly trends, and analyze spending categories
 ---
 
 ## 📁 Project Structure
-```bash
+
+```
+
 .
 ├── main.py               # Entry point (menu-driven CLI for tracker)
 ├── db.py                 # Database functions (insert & connect to SQLite)
-├── expense_report.py     # Reports: yearly, monthly, and category summary
+├── expense\_report.py     # Reports: yearly, monthly, and category summary
 ├── expenses/expenses.db  # SQLite database file (auto-created)
 └── README.md             # Documentation
-````
 
----
+```
+```
+
+👉 Copy **only this** into your `README.md` — it will display just like your second screenshot.
+
+Do you also want me to add the **Features section** below it (styled the same way), or keep it minimal like this?
+
 
 ## 🧠 Features
 
