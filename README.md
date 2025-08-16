@@ -34,7 +34,7 @@ Track your expenses, view yearly/monthly trends, and analyze spending categories
 - Python 3.7+
 - Pandas
 - Matplotlib
-- SQLite (pre-installed with Python)
+- SQLite (comes pre-installed with Python)
 
 ### 📥 Install dependencies
 ```bash
@@ -95,5 +95,5 @@ Pull requests are welcome! If you’d like to add new features (export, GUI, ML 
 
 ```
 
-Do you want me to also **add placeholders for screenshots/graphs** (like `![Yearly Report Example](docs/yearly_report.png)`) so it looks more professional when you upload it to GitHub?
+Would you like me to also add **badges** (like Python version, license, etc.) at the top so it looks GitHub-professional?
 ```
