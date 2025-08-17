@@ -1,7 +1,7 @@
 import sqlite3
 
 def insert_expense():
-  conn =  sqlite3.connect("expenses\expenses.db")
+  conn =  sqlite3.connect("expenses/expenses.db")
   cur = conn.cursor()
 
   date = input("Enter the date (YYYY-MM-DD): ")
@@ -31,7 +31,7 @@ def insert_expense():
 
 
 def fetch_expenses():
-  conn = sqlite3.connect("expenses\expenses.db")
+  conn = sqlite3.connect("expenses/expenses.db")
   cursor = conn.cursor()
     
   cursor.execute("""

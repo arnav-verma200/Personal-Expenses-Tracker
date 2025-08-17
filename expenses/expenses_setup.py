@@ -1,5 +1,5 @@
 import sqlite3
-conn =  sqlite3.connect("expenses\expenses.db")
+conn =  sqlite3.connect("expenses/expenses.db")
 cur = conn.cursor()
 
 # Create categories table
